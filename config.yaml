@@ -1,0 +1,35 @@
+deployment:
+  name: "PC-01 Standard Software"
+  version: "1.0"
+
+software:
+
+  - name: "Google Chrome"
+    folder: "Chrome"
+    installer: "ChromeSetup.exe"
+    type: "exe"
+    arguments: "/silent"
+
+  - name: "Visual Studio Code"
+    folder: "VSCode"
+    installer: "VSCodeSetup.exe"
+    type: "exe"
+    arguments: "/VERYSILENT /NORESTART"
+
+  - name: "Git"
+    folder: "Git"
+    installer: "GitSetup.exe"
+    type: "exe"
+    arguments: "/VERYSILENT /NORESTART"
+
+  - name: "7-Zip"
+    folder: "7zip"
+    installer: "7zipSetup.exe"
+    type: "exe"
+    arguments: "/S"
+
+  - name: "Node.js"
+    folder: "NodeJS"
+    installer: "NodeJS.msi"
+    type: "msi"
+    arguments: "/qn /norestart"
